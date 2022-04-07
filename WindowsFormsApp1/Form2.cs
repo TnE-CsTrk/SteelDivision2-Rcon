@@ -67,8 +67,9 @@ namespace WindowsFormsApp1
             insertComboItem3();
             insertComboItem4();
             insertComboItem5();
-            
+            insertComboItem8();
             insertComboItem7();
+            
             textBox1.KeyUp += new KeyEventHandler(textBox1_KeyUp);
             textBox3.KeyUp += new KeyEventHandler(textBox3_KeyUp);
             textBox4.KeyUp += new KeyEventHandler(textBox4_KeyUp);
@@ -1280,13 +1281,25 @@ namespace WindowsFormsApp1
             comboBox5.Items.Add("1月");
             comboBox5.SelectedIndex = 1;
         }
-        
+        private void insertComboItem8()
+        {
+            comboBox8.Items.Add("");
+            comboBox8.Items.Add("非常简单");
+            comboBox8.Items.Add("简单");
+            comboBox8.Items.Add("中等");
+            comboBox8.Items.Add("困难");
+            comboBox8.Items.Add("非常困难");
+            comboBox8.Items.Add("极难");
+            comboBox8.SelectedIndex = 0;
+        }
+
         private void insertComboItem7()
         {
             comboBox7.Items.Add("English");
             comboBox7.Items.Add("中文");
             comboBox7.SelectedIndex = 0;
         }
+        
 
         private void Send_Click(object sender, EventArgs e)
         {
@@ -1666,6 +1679,137 @@ namespace WindowsFormsApp1
             }
         }
 
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            threadWatch.Abort();
+            timer.Close();
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                checkBox1.Checked = false;
+                timer.Stop();
+                button3.Enabled = true;
+            }
+
+        }
+
+        private void comboBox8_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (textBox5.Text.Contains("21617278211378"))
+            {
+                switch (comboBox8.SelectedIndex) //获取选择的内容
+                {
+
+                    case 0:
+                        break;
+
+                    case 1:
+
+                        Task.Delay(10).ContinueWith(_ =>
+                        {
+
+                            textBox2.Text = "setpvar " + textBox5.Text + " PlayerIALevel " + comboBox8.SelectedIndex;
+                            sendbutton = 1;
+
+                        }
+
+                        );
+
+
+                        break;
+
+                    case 2:
+                        Task.Delay(10).ContinueWith(_ =>
+                        {
+
+                            textBox2.Text = "setpvar " + textBox5.Text + " PlayerIALevel " + comboBox8.SelectedIndex;
+                            sendbutton = 1;
+
+                        }
+
+                        );
+
+
+
+                        break;
+
+                    case 3:
+                        Task.Delay(10).ContinueWith(_ =>
+                        {
+
+                            textBox2.Text = "setpvar " + textBox5.Text + " PlayerIALevel " + comboBox8.SelectedIndex;
+                            sendbutton = 1;
+
+                        }
+
+                        );
+
+
+
+
+                        break;
+
+                    case 4:
+                        Task.Delay(10).ContinueWith(_ =>
+                        {
+
+                            textBox2.Text = "setpvar " + textBox5.Text + " PlayerIALevel " + comboBox8.SelectedIndex;
+                            sendbutton = 1;
+
+                        }
+
+                        );
+
+
+
+
+                        break;
+
+                    case 5:
+                        Task.Delay(10).ContinueWith(_ =>
+                        {
+
+                            textBox2.Text = "setpvar " + textBox5.Text + " PlayerIALevel " + comboBox8.SelectedIndex;
+                            sendbutton = 1;
+
+                        }
+
+                        );
+
+
+
+
+                        break;
+
+                    case 6:
+                        Task.Delay(10).ContinueWith(_ =>
+                        {
+
+                            textBox2.Text = "setpvar " + textBox5.Text + " PlayerIALevel " + comboBox8.SelectedIndex;
+                            sendbutton = 1;
+
+                        }
+
+                        );
+
+
+
+
+                        break;
+
+
+                }
+
+            }
+
+
+            
+        }
+
+
         private void button3_Click(object sender, EventArgs e)
         {
             checkclient = 1;
@@ -1675,11 +1819,10 @@ namespace WindowsFormsApp1
 
         }
 
-        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-            
-        }
+
+
+
         private void comboBox7_SelectedIndexChanged(object sender, EventArgs e)
         {
             //   MessageBox.Show("jin zhege fnagfa ");
@@ -1770,6 +1913,8 @@ namespace WindowsFormsApp1
                     this.label10.Font = font3;
                     this.label11.Text = "解封索引";
                     this.label11.Font = font3;
+                    this.label12.Text = "难度设定";
+                    this.label12.Font = font3;
                     this.checkBox1.Text = "每0.2秒一次刷新";
                     this.checkBox1.Font = new Font("微软雅黑", 15);
 
@@ -1780,6 +1925,13 @@ namespace WindowsFormsApp1
                     this.comboBox5.Items[4] = "3天";
                     this.comboBox5.Items[5] = "1周";
                     this.comboBox5.Items[6] = "1月";
+
+                    this.comboBox8.Items[1] = "非常简单";
+                    this.comboBox8.Items[2] = "简单";
+                    this.comboBox8.Items[3] = "中等";
+                    this.comboBox8.Items[4] = "困难";
+                    this.comboBox8.Items[5] = "非常困难";
+                    this.comboBox8.Items[6] = "极难";
 
                     /*      Page 5        */
                     this.tabPage5.Text = "关于";
@@ -1838,6 +1990,8 @@ namespace WindowsFormsApp1
                     this.label10.Font = font4;
                     this.label11.Text = "Unban Index";
                     this.label11.Font = font4;
+                    this.label12.Text = "Difficulty";
+                    this.label12.Font = font4;
                     this.checkBox1.Text = "0.2 seconds at a time refresh";
                     this.checkBox1.Font = new Font("微软雅黑", 9 );
 
@@ -1848,6 +2002,13 @@ namespace WindowsFormsApp1
                     this.comboBox5.Items[4] = "3 days";
                     this.comboBox5.Items[5] = "1 week";
                     this.comboBox5.Items[6] = "1 month";
+
+                    this.comboBox8.Items[1] = "Very Easy";
+                    this.comboBox8.Items[2] = "Easy";
+                    this.comboBox8.Items[3] = "Medium";
+                    this.comboBox8.Items[4] = "Hard";
+                    this.comboBox8.Items[5] = "Very Hard";
+                    this.comboBox8.Items[6] = "Hardest";
 
                     /*      Page 5        */
                     this.tabPage5.Text = "about";
@@ -1873,19 +2034,16 @@ namespace WindowsFormsApp1
 
         }
 
-        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        private void textBox5_TextChanged(object sender, EventArgs e)
         {
-            threadWatch.Abort();
-            timer.Close();
-        }
-
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (checkBox1.Checked)
+            if(textBox5.Text.Contains("21617278211378"))
             {
-                checkBox1.Checked = false;
-                timer.Stop();
-                button3.Enabled = true;
+                comboBox8.Enabled = true;
+            }
+            else
+            {
+                comboBox8.Enabled = false;
+                comboBox8.SelectedIndex = 0;
             }
 
         }

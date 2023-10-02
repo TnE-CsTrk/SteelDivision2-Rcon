@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="_3x2_Siedlce_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Siedlce_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Slutsk_W_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Slutsk_W_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Island_Losnica_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Island_Losnica_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Lenina_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Lenina_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Ville_Centrale_Haroshaje_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Ville_Centrale_Haroshaje_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_West_Brest_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_West_Brest_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Kostritsa_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Kostritsa_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Slutsk_LD_4v4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Slutsk_LD_4v4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Astrouna_Novka_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Astrouna_Novka_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Ostrowno_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Ostrowno_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Lenina_LD_4v4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Lenina_LD_4v4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Zbuczyn_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Zbuczyn_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Slutsk_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Slutsk_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Tali_Ihantala_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Tali_Ihantala_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Lenina_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Lenina_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Ilomantsi_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Ilomantsi_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_tannenberg_10vs10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_tannenberg_10vs10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Lenina_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Lenina_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x3_Oarba_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x3_Oarba_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Bridges_Smolyany_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Bridges_Smolyany_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Lipen_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Lipen_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Slutsk_E_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Slutsk_E_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Mogilev_LD_10v10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Mogilev_LD_10v10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Plateau_Central_Orsha_E_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Plateau_Central_Orsha_E_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Vistula_Gora_Kalwaria_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Vistula_Gora_Kalwaria_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Beshankovichy_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Beshankovichy_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Lacs_Sianno_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Lacs_Sianno_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Lyakhavichy_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Lyakhavichy_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_West_Brest_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_West_Brest_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Tali_Ihantala_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Tali_Ihantala_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Slutsk_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Slutsk_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Slutsk_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Slutsk_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Urban_River_Bobr_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Urban_River_Bobr_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Mogilev_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Mogilev_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Tali_Ihantala_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Tali_Ihantala_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Zbuczyn_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Zbuczyn_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_River_Swamp_Krupa_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_River_Swamp_Krupa_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Urban_roads_Krupki_LD_10v10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Urban_roads_Krupki_LD_10v10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Shchedrin_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Shchedrin_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Rivers_Pleshchenitsy_S_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Rivers_Pleshchenitsy_S_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_East_Vitebsk_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_East_Vitebsk_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Vistula_Gora_Kalwaria_LD_4v4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Vistula_Gora_Kalwaria_LD_4v4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Tannenberg_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Tannenberg_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x1_Proto_levelBuild_Orsha_N_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x1_Proto_levelBuild_Orsha_N_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Veselovo_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Veselovo_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_West_Bobrujsk_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_West_Bobrujsk_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Shchedrin_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Shchedrin_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Marecages_Naratch_lake_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Marecages_Naratch_lake_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Ostrowno_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Ostrowno_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Highway_LD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Highway_LD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Tannenberg_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Tannenberg_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Ilomantsi_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Ilomantsi_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Urban_roads_Krupki_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Urban_roads_Krupki_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Siedlce_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Siedlce_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_West_Brest_LD_3v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_West_Brest_LD_3v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Ostrowno_LD_2v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Ostrowno_LD_2v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Ostrowno_LD_4v4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Ostrowno_LD_4v4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Shchedrin_LD_4v4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Shchedrin_LD_4v4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Shchedrin_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Shchedrin_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Foret_Tsel_LD_1v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Foret_Tsel_LD_1v1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x1_Proto_levelBuild_Orsha_N_LD_1v1_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x1_Proto_levelBuild_Orsha_N_LD_1v1_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Kostritsa_LD_1v1_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Kostritsa_LD_1v1_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Lacs_Sianno_LD_1v1_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Lacs_Sianno_LD_1v1_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x2_Ostrowno_LD_1v1_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x2_Ostrowno_LD_1v1_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2x3_Oarba_LD_2v2_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_2x3_Oarba_LD_2v2_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_East_Vitebsk_LD_2v2_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_East_Vitebsk_LD_2v2_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Shchedrin_LD_2v2_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Shchedrin_LD_2v2_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_West_Bobrujsk_LD_2v2_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_West_Bobrujsk_LD_2v2_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_Lyakhavichy_LD_3v3_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_Lyakhavichy_LD_3v3_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3x2_West_Brest_LD_3v3_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_3x2_West_Brest_LD_3v3_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Slutsk_LD_4v4_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Slutsk_LD_4v4_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4x2_Vistula_Gora_Kalwaria_LD_4v4_DEST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_4x2_Vistula_Gora_Kalwaria_LD_4v4_DEST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

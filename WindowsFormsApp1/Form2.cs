@@ -183,7 +183,7 @@ namespace WindowsFormsApp1
             //client.Connect(new IPEndPoint(ip, Form1.portnum));
 
             var result = client.BeginConnect(ip, Form1.portnum, CallBackMethod, client);
-            int timeoutMSec = 1;
+            int timeoutMSec = 2;
             if (result.AsyncWaitHandle.WaitOne(TimeSpan.FromSeconds(timeoutMSec)))
             {
                 //MessageBox.Show("网络正常");
@@ -381,7 +381,7 @@ namespace WindowsFormsApp1
                         Thread.Sleep(100);
                     }
 
-                    if (scanconnect >= 10 && connectsucess == 0)
+                    if (scanconnect >= 20 && connectsucess == 0)
                     {
                         connectsucess = 0;
                         MessageBox.Show("Password Error");

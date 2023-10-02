@@ -676,7 +676,7 @@ namespace WindowsFormsApp1
             comboBox2.Items.Add("");
             comboBox2.Items.Add("盟军vs轴心国");
             comboBox2.Items.Add("盟军vs盟军");
-            comboBox2.Items.Add("盟军vs轴心国");
+            comboBox2.Items.Add("轴心国vs轴心国");
 
             comboBox2.SelectedIndex = 0;
         }

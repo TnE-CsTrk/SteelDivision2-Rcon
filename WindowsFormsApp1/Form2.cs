@@ -1911,7 +1911,7 @@ namespace WindowsFormsApp1
 
                     this.comboBox2.Items[1] = "盟军vs轴心国";
                     this.comboBox2.Items[2] = "盟军vs盟军";
-                    this.comboBox2.Items[3] = "盟军vs轴心国";
+                    this.comboBox2.Items[3] = "轴心国vs轴心国";
 
 
 

@@ -115,8 +115,8 @@ namespace WindowsFormsApp1
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            if (this.Opacity >= 0.025)
-                this.Opacity -= 0.025;
+            if (this.Opacity >= 0.05)
+                this.Opacity -= 0.05;
             else
             {
                 timer.Stop();

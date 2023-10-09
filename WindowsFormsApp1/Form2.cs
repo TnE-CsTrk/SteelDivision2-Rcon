@@ -1991,8 +1991,8 @@ namespace WindowsFormsApp1
                     this.label4.Font = font4;
 
                     this.comboBox1.Items[1] = "Conquest";
-                    this.comboBox1.Items[2] = "Breakthrough";
-                    this.comboBox1.Items[3] = "Close Quarter";
+                    this.comboBox1.Items[2] = "Close Quarter";
+                    this.comboBox1.Items[3] = "Breakthrough";
                     this.comboBox1.Items[4] = "Destruction";
                     this.comboBox1.Items[5] = "Dest - Close Quarter";
 
